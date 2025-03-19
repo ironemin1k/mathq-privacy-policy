@@ -12,6 +12,63 @@
             margin: 0 auto;
             padding: 20px;
         }
+        .hidden { display: none; }
+        .language-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .language-buttons button {
+            border: none;
+            cursor: pointer;
+            background: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .language-buttons img {
+            width: 40px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Dil Seçim Butonları -->
+    <div class="language-buttons">
+        <button onclick="switchLanguage('en')">
+            <img src="flags/en.png" alt="English"><span>English</span>
+        </button>
+        <button onclick="switchLanguage('es')">
+            <img src="flags/es.png" alt="Español"><span>Español</span>
+        </button>
+        <button onclick="switchLanguage('fr')">
+            <img src="flags/fr.png" alt="Français"><span>Français</span>
+        </button>
+        <button onclick="switchLanguage('de')">
+            <img src="flags/de.png" alt="Deutsch"><span>Deutsch</span>
+        </button>
+        <button onclick="switchLanguage('tr')">
+            <img src="flags/tr.png" alt="Türkçe"><span>Türkçe</span>
+        </button>
+    </div>
+
+    <!-- İngilizce -->
+    <div id="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
         h1, h2 {
             color: #333;
         }
@@ -22,7 +79,7 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p>Last updated: [17.03.2025]</p>
+    <p>Last updated: [19.03.2025]</p>
     
     <p>This Privacy Policy describes how we collect, use, and share information when you use our MathQ application.</p>
     
@@ -82,3 +139,370 @@
     <p>[contact.picrisis@gmail.com]</p>
 </body>
 </html> 
+    </div>
+
+    <!-- İspanyolca -->
+    <div id="es" class="hidden">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidad</h1>
+    <p>Última actualización: [19.03.2025]</p>
+    
+    <p>Esta Política de Privacidad describe cómo recopilamos, usamos y compartimos información cuando utilizas nuestra aplicación MathQ.</p>
+    
+    <h2>Información que Recopilamos</h2>
+    
+    <h3>Información que Proporcionas</h3>
+    <p>Nuestra aplicación no requiere que crees una cuenta ni que proporciones información personal. Almacenamos tus puntajes de cuestionarios y preferencias localmente en tu dispositivo.</p>
+    
+    <h3>Información Recopilada Automáticamente</h3>
+    <p>Cuando utilizas nuestra aplicación, podemos recopilar automáticamente:</p>
+    <ul>
+        <li>Información del dispositivo: Recopilamos datos sobre tu dispositivo, incluyendo el modelo, la versión del sistema operativo, identificadores únicos del dispositivo y la información de la red móvil.</li>
+        <li>Datos de uso de la aplicación: Recopilamos información sobre cómo interactúas con nuestra aplicación, incluidas las funciones que utilizas, los puntajes de los cuestionarios y los datos de finalización de los cuestionarios.</li>
+        <li>Preferencias de idioma: Detectamos y almacenamos tus preferencias de idioma para ofrecer la aplicación en tu idioma preferido.</li>
+    </ul>
+    
+    <h2>Cómo Usamos tu Información</h2>
+    <p>Utilizamos la información que recopilamos para:</p>
+    <ul>
+        <li>Proporcionar, mantener y mejorar nuestra aplicación</li>
+        <li>Realizar un seguimiento de tu progreso y puntajes</li>
+        <li>Personalizar tu experiencia recordando tus preferencias</li>
+        <li>Analizar el uso de la aplicación para mejorar su funcionalidad</li>
+        <li>Mostrar anuncios relevantes (a menos que hayas adquirido la versión sin anuncios)</li>
+        <li>Procesar compras dentro de la aplicación</li>
+    </ul>
+    
+    <h2>Servicios de Terceros</h2>
+    
+    <h3>Publicidad</h3>
+    <p>Nuestra aplicación utiliza Google AdMob para mostrar anuncios. AdMob puede recopilar y procesar información sobre ti, incluyendo:</p>
+    <ul>
+        <li>Identificadores del dispositivo</li>
+        <li>Datos de ubicación (si está habilitado)</li>
+        <li>Datos demográficos</li>
+        <li>Datos de uso</li>
+    </ul>
+    <p>Para obtener más información sobre cómo Google usa esta información, consulta la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</p>
+    
+    <h3>Compras Dentro de la Aplicación</h3>
+    <p>Nuestra aplicación utiliza los servicios de facturación de Google Play para procesar compras dentro de la aplicación. Cuando realizas una compra, tu información de transacción es manejada por Google. No recopilamos ni almacenamos tus datos de pago. Consulta la <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice">Política de Privacidad de Google Play</a> para más información.</p>
+    
+    <h2>Seguridad de los Datos</h2>
+    <p>Implementamos medidas técnicas y organizativas adecuadas para proteger la información que recopilamos. Tus preferencias y puntajes se almacenan localmente en tu dispositivo y no se transmiten a servidores externos a menos que sea explícitamente necesario para la funcionalidad.</p>
+    
+    <h2>Derechos del Usuario</h2>
+    <p>Puedes restablecer todos los datos de la aplicación a través de la configuración de tu dispositivo. Esto eliminará todas las preferencias y puntajes almacenados localmente.</p>
+    
+    <h2>Privacidad Infantil</h2>
+    <p>Nuestra aplicación está diseñada para audiencias generales y no recopila intencionadamente información personal de niños menores de 13 años. Si crees que hemos recopilado accidentalmente información de un niño menor de 13 años, contáctanos para eliminarla de inmediato.</p>
+    
+    <h2>Cambios en Esta Política de Privacidad</h2>
+    <p>Podemos actualizar nuestra Política de Privacidad ocasionalmente. Te notificaremos sobre cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de "Última actualización".</p>
+    
+    <h2>Contáctanos</h2>
+    <p>Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en:</p>
+    <p>[contact.picrisis@gmail.com]</p>
+</body>
+</html>
+
+    </div>
+
+    <!-- Fransızca -->
+    <div id="fr" class="hidden">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Politique de Confidentialité</h1>
+    <p>Dernière mise à jour : [19.03.2025]</p>
+    
+    <p>Cette politique de confidentialité décrit comment nous collectons, utilisons et partageons des informations lorsque vous utilisez notre application MathQ.</p>
+    
+    <h2>Informations que Nous Collectons</h2>
+    
+    <h3>Informations que Vous Fournissez</h3>
+    <p>Notre application ne vous oblige pas à créer un compte ni à fournir des informations personnelles. Nous stockons vos scores de quiz et vos préférences localement sur votre appareil.</p>
+    
+    <h3>Informations Collectées Automatiquement</h3>
+    <p>Lorsque vous utilisez notre application, nous pouvons collecter automatiquement :</p>
+    <ul>
+        <li>Informations sur l'appareil : Nous recueillons des informations sur votre appareil, y compris le modèle, la version du système d'exploitation, les identifiants uniques de l'appareil et les informations du réseau mobile.</li>
+        <li>Données d'utilisation de l'application : Nous collectons des données sur votre interaction avec notre application, y compris les fonctionnalités que vous utilisez, vos scores de quiz et les données de complétion des quiz.</li>
+        <li>Préférences linguistiques : Nous détectons et enregistrons vos préférences linguistiques afin de vous proposer l'application dans votre langue préférée.</li>
+    </ul>
+    
+    <h2>Comment Nous Utilisons Vos Informations</h2>
+    <p>Nous utilisons les informations collectées pour :</p>
+    <ul>
+        <li>Fournir, maintenir et améliorer notre application</li>
+        <li>Suivre votre progression et vos scores</li>
+        <li>Personnaliser votre expérience en mémorisant vos préférences</li>
+        <li>Analyser l'utilisation de l'application afin d'améliorer ses fonctionnalités</li>
+        <li>Afficher des publicités pertinentes (sauf si vous avez acheté la version sans publicité)</li>
+        <li>Gérer les achats intégrés</li>
+    </ul>
+    
+    <h2>Services Tiers</h2>
+    
+    <h3>Publicité</h3>
+    <p>Notre application utilise Google AdMob pour afficher des publicités. AdMob peut collecter et traiter des informations vous concernant, notamment :</p>
+    <ul>
+        <li>Identifiants de l'appareil</li>
+        <li>Données de localisation (si activé)</li>
+        <li>Données démographiques</li>
+        <li>Données d'utilisation</li>
+    </ul>
+    <p>Pour plus d'informations sur la façon dont Google utilise ces informations, consultez la <a href="https://policies.google.com/privacy">Politique de confidentialité de Google</a>.</p>
+    
+    <h3>Achats Intégrés</h3>
+    <p>Notre application utilise les services de facturation de Google Play pour gérer les achats intégrés. Lorsque vous effectuez un achat, vos informations de transaction sont traitées par Google. Nous ne collectons ni ne stockons vos données de paiement. Consultez la <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice">Politique de confidentialité de Google Play</a> pour plus d'informations.</p>
+    
+    <h2>Sécurité des Données</h2>
+    <p>Nous mettons en place des mesures techniques et organisationnelles appropriées pour protéger les informations que nous collectons. Vos préférences et vos scores sont stockés localement sur votre appareil et ne sont pas transmis à des serveurs externes, sauf si cela est explicitement requis pour la fonctionnalité.</p>
+    
+    <h2>Droits des Utilisateurs</h2>
+    <p>Vous pouvez réinitialiser toutes les données de l'application via les paramètres de votre appareil. Cela supprimera toutes les préférences et scores stockés localement.</p>
+    
+    <h2>Confidentialité des Enfants</h2>
+    <p>Notre application est destinée à un public général et ne collecte pas intentionnellement d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous pensez que nous avons collecté involontairement des informations sur un enfant de moins de 13 ans, veuillez nous contacter afin que nous puissions les supprimer immédiatement.</p>
+    
+    <h2>Modifications de Cette Politique de Confidentialité</h2>
+    <p>Nous pouvons mettre à jour notre politique de confidentialité de temps en temps. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page et en mettant à jour la date de "Dernière mise à jour".</p>
+    
+    <h2>Nous Contacter</h2>
+    <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :</p>
+    <p>[contact.picrisis@gmail.com]</p>
+</body>
+</html>
+
+    </div>
+
+    <!-- Almanca -->
+    <div id="de" class="hidden">
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzrichtlinie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Datenschutzrichtlinie</h1>
+    <p>Zuletzt aktualisiert: [19.03.2025]</p>
+    
+    <p>Diese Datenschutzrichtlinie beschreibt, wie wir Informationen sammeln, verwenden und teilen, wenn Sie unsere MathQ-Anwendung nutzen.</p>
+    
+    <h2>Informationen, die wir sammeln</h2>
+    
+    <h3>Informationen, die Sie bereitstellen</h3>
+    <p>Unsere App erfordert nicht, dass Sie ein Konto erstellen oder persönliche Informationen bereitstellen. Wir speichern Ihre Quiz-Ergebnisse und Einstellungen lokal auf Ihrem Gerät.</p>
+    
+    <h3>Automatisch gesammelte Informationen</h3>
+    <p>Wenn Sie unsere App nutzen, sammeln wir möglicherweise automatisch:</p>
+    <ul>
+        <li>Geräteinformationen: Wir sammeln Informationen über Ihr Gerät, einschließlich Gerätemodell, Betriebssystemversion, eindeutige Gerätekennungen und Mobilfunknetzinformationen.</li>
+        <li>App-Nutzungsdaten: Wir sammeln Daten darüber, wie Sie mit unserer App interagieren, einschließlich der Funktionen, die Sie verwenden, der Quiz-Ergebnisse und der Quiz-Abschlussdaten.</li>
+        <li>Spracheinstellungen: Wir erkennen und speichern Ihre Spracheinstellungen, um die App in Ihrer bevorzugten Sprache anzubieten.</li>
+    </ul>
+    
+    <h2>Wie wir Ihre Informationen verwenden</h2>
+    <p>Wir verwenden die gesammelten Informationen, um:</p>
+    <ul>
+        <li>Unsere App bereitzustellen, zu warten und zu verbessern</li>
+        <li>Ihre Fortschritte und Ergebnisse zu verfolgen</li>
+        <li>Ihre Erfahrung zu personalisieren, indem wir Ihre Einstellungen speichern</li>
+        <li>Die Nutzung der App zu analysieren, um die Funktionalität zu verbessern</li>
+        <li>Relevante Werbung anzuzeigen (es sei denn, Sie haben die werbefreie Version gekauft)</li>
+        <li>In-App-Käufe zu verarbeiten</li>
+    </ul>
+    
+    <h2>Dienste von Drittanbietern</h2>
+    
+    <h3>Werbung</h3>
+    <p>Unsere App verwendet Google AdMob, um Werbung anzuzeigen. AdMob kann Informationen über Sie sammeln und verarbeiten, einschließlich:</p>
+    <ul>
+        <li>Gerätekennungen</li>
+        <li>Standortdaten (sofern aktiviert)</li>
+        <li>Demografische Daten</li>
+        <li>Nutzungsdaten</li>
+    </ul>
+    <p>Weitere Informationen darüber, wie Google diese Informationen verwendet, finden Sie in der <a href="https://policies.google.com/privacy">Datenschutzrichtlinie von Google</a>.</p>
+    
+    <h3>In-App-Käufe</h3>
+    <p>Unsere App verwendet den Abrechnungsdienst von Google Play, um In-App-Käufe zu verarbeiten. Wenn Sie einen Kauf tätigen, werden Ihre Transaktionsinformationen von Google bearbeitet. Wir sammeln oder speichern keine Zahlungsdetails. Weitere Informationen finden Sie in der <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice">Datenschutzrichtlinie von Google Play</a>.</p>
+    
+    <h2>Datensicherheit</h2>
+    <p>Wir ergreifen geeignete technische und organisatorische Maßnahmen, um die gesammelten Informationen zu schützen. Ihre Einstellungen und Ergebnisse werden lokal auf Ihrem Gerät gespeichert und nicht an externe Server übertragen, es sei denn, dies ist ausdrücklich für die Funktionalität erforderlich.</p>
+    
+    <h2>Rechte der Nutzer</h2>
+    <p>Sie können alle App-Daten über die Einstellungen Ihres Geräts zurücksetzen. Dadurch werden alle lokal gespeicherten Einstellungen und Ergebnisse entfernt.</p>
+    
+    <h2>Datenschutz von Kindern</h2>
+    <p>Unsere App ist für ein allgemeines Publikum konzipiert und sammelt nicht wissentlich persönliche Informationen von Kindern unter 13 Jahren. Wenn Sie glauben, dass wir versehentlich Informationen von einem Kind unter 13 Jahren gesammelt haben, kontaktieren Sie uns bitte, damit wir die Informationen umgehend entfernen können.</p>
+    
+    <h2>Änderungen dieser Datenschutzrichtlinie</h2>
+    <p>Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen und das Datum der "Zuletzt aktualisiert"-Angabe aktualisieren.</p>
+    
+    <h2>Kontaktieren Sie uns</h2>
+    <p>Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:</p>
+    <p>[contact.picrisis@gmail.com]</p>
+</body>
+</html>
+
+    </div>
+
+    <!-- Türkçe -->
+    <div id="tr" class="hidden">
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gizlilik Politikası</h1>
+    <p>Son Güncelleme: [19.03.2025]</p>
+    
+    <p>Bu Gizlilik Politikası, MathQ uygulamamızı kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı ve paylaştığımızı açıklar.</p>
+    
+    <h2>Topladığımız Bilgiler</h2>
+    
+    <h3>Sizden Aldığımız Bilgiler</h3>
+    <p>Uygulamamız, hesap oluşturmanızı veya kişisel bilgilerinizi sağlamanızı gerektirmez. Quiz sonuçlarınızı ve tercihlerinizi cihazınızda yerel olarak saklarız.</p>
+    
+    <h3>Otomatik Olarak Toplanan Bilgiler</h3>
+    <p>Uygulamamızı kullandığınızda, aşağıdaki bilgileri otomatik olarak toplayabiliriz:</p>
+    <ul>
+        <li>Cihaz bilgileri: Cihazınızla ilgili bilgileri toplarız, bunlar arasında cihaz modeli, işletim sistemi sürümü, benzersiz cihaz tanımlayıcıları ve mobil ağ bilgileri yer alır.</li>
+        <li>Uygulama kullanım verileri: Uygulamamızla nasıl etkileşimde bulunduğunuzla ilgili verileri toplarız, bunlar arasında kullandığınız özellikler, quiz sonuçları ve quiz tamamlama verileri bulunur.</li>
+        <li>Dil tercihleri: Dil tercihlerinizi tespit ederiz ve uygulamayı tercih ettiğiniz dilde sunmak için saklarız.</li>
+    </ul>
+    
+    <h2>Bilgilerinizi Nasıl Kullanıyoruz</h2>
+    <p>Topladığımız bilgileri şu amaçlarla kullanırız:</p>
+    <ul>
+        <li>Uygulamamızı sağlamak, sürdürmek ve geliştirmek</li>
+        <li>İlerlemenizi ve puanlarınızı takip etmek</li>
+        <li>Tercihlerinizi hatırlayarak deneyiminizi kişiselleştirmek</li>
+        <li>Uygulama kullanımını analiz ederek işlevselliği iyileştirmek</li>
+        <li>İlgili reklamları sunmak (Reklamsız sürümünü satın almadıysanız)</li>
+        <li>Uygulama içi satın alımları işlemek</li>
+    </ul>
+    
+    <h2>Üçüncü Taraf Hizmetleri</h2>
+    
+    <h3>Reklamlar</h3>
+    <p>Uygulamamız, reklamları göstermek için Google AdMob kullanmaktadır. AdMob, sizinle ilgili aşağıdaki bilgileri toplayabilir ve işleyebilir:</p>
+    <ul>
+        <li>Cihaz tanımlayıcıları</li>
+        <li>Konum verileri (eğer etkinleştirilmişse)</li>
+        <li>Demografik veriler</li>
+        <li>Kullanım verileri</li>
+    </ul>
+    <p>Google'ın bu bilgileri nasıl kullandığı hakkında daha fazla bilgi için lütfen <a href="https://policies.google.com/privacy">Google Gizlilik Politikasına</a> bakın.</p>
+    
+    <h3>Uygulama İçi Satın Alımlar</h3>
+    <p>Uygulamamız, uygulama içi satın alımları işlemek için Google Play'in faturalandırma hizmetlerini kullanır. Bir satın alma işlemi yaptığınızda, işlem bilgileri Google tarafından işlenir. Biz ödeme bilgilerinizi toplamaz veya saklamayız. Daha fazla bilgi için lütfen <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice">Google Play Gizlilik Politikasına</a> bakın.</p>
+    
+    <h2>Veri Güvenliği</h2>
+    <p>Topladığımız bilgileri korumak için uygun teknik ve organizasyonel önlemler alıyoruz. Tercihleriniz ve puanlarınız cihazınızda yerel olarak saklanır ve işlevsellik için açıkça gerekmedikçe harici sunuculara iletilmez.</p>
+    
+    <h2>Kullanıcı Hakları</h2>
+    <p>Uygulama verilerinizi cihazınızın ayarları aracılığıyla sıfırlayabilirsiniz. Bu, tüm yerel olarak saklanan tercihleri ve puanları siler.</p>
+    
+    <h2>Çocukların Gizliliği</h2>
+    <p>Uygulamamız, genel kullanıcı kitlesi için tasarlanmış olup, 13 yaşın altındaki çocuklardan kasıtlı olarak kişisel bilgi toplamaz. Eğer yanlışlıkla 13 yaşın altındaki bir çocuktan bilgi topladığımızı düşünüyorsanız, lütfen bizimle iletişime geçin, böylece bilgileri derhal kaldırabiliriz.</p>
+    
+    <h2>Bu Gizlilik Politikasındaki Değişiklikler</h2>
+    <p>Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Yapılan değişiklikleri size bildireceğiz, yeni Gizlilik Politikasını bu sayfada yayınlayarak ve "Son Güncelleme" tarihini güncelleyerek.</p>
+    
+    <h2>Bize Ulaşın</h2>
+    <p>Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:</p>
+    <p>[contact.picrisis@gmail.com]</p>
+</body>
+</html>
+
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            document.querySelectorAll('div[id]').forEach(div => div.classList.add('hidden'));
+            document.getElementById(lang).classList.remove('hidden');
+        }
+    </script>
+
+</body>
+</html>
